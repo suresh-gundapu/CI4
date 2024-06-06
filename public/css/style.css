@@ -1,0 +1,171 @@
+::selection{background-color:#E13300;color:white;}
+::moz-selection{background-color:#E13300;color:white;}
+::webkit-selection{background-color:#E13300;color:white;}
+
+div.err{padding:3px 4px 3px 4px;color:#c93605;font-weight:bold;text-shadow:0px 1px 1px rgba(164, 44, 4, 0.20);moz-text-shadow:0px 1px 1px rgba(164, 44, 4, 0.20);webkit-text-shadow:0px 1px 1px rgba(164, 44, 4, 0.20);font-size:11px;}
+form input.err{border:1px solid #ED7A53 !important;}
+form input.valid{border:1px solid #9FC569 !important;}
+
+.copyright{display:block;overflow:hidden;padding:15px;text-align:center;font-size:10px;}
+.alert{background-color:#FCF8E3;border:1px solid #FBEED5;border-radius:4px 4px 4px 4px;color:#C09853;margin-bottom:20px;padding:8px 35px 8px 14px;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);}
+.alert-success{color:#468847;background-color:#dff0d8;border-color:#d6e9c6;}
+.alert-danger,.alert-error{color:#b94a48;background-color:#f2dede;border-color:#eed3d7;}
+.alert-info{background-color:#D9EDF7;border-color:#BCE8F1;color:#3A87AD;}
+.errorbox-position{position:fixed;width:100%;margin:auto;z-index:50;}
+.closebtn-errorbox{position:absolute;top:15px;right:15px;z-index:10000;}
+.content-errorbox{padding:18px 36px 18px 12px!important;position:absolute;text-align:center;top:0;width:100%;z-index:1000;}
+button.close{background:none repeat scroll 0 0 transparent;border:0 none;cursor:pointer;padding:0;}
+.connection-container .error-container{box-shadow:none;padding:35px 15px 20px 15px;margin-top:10%;border:1px solid #c4c4c4;border-radius:2px;position:absolute;left:50%;margin-left:-286px;width:550px;}
+.connection-container .error-container:after,.connect-error-container .error-container:before{content:none!important;}
+.connection-container .page-header{border-bottom:none;margin:0;padding-bottom:0;font-size:13px;line-height:20px;}
+.connection-container .error-container h1{color:#778695;font-weight:normal;font-size:6em;height:auto;background:none;padding:15px 10px;line-height:1em;text-align:center;width:100%;display:inline-block;border-bottom:none;}
+.connection-container .error-container h1 small{font-weight:700;font-size:0.3em;color:#999999;line-height:1em;text-align:center;}
+.connection-container .error-container h2{color:#778695;font-size:18px;font-weight:normal;text-align:center;width:100%;display:inline-block;margin-bottom:10px;margin-top:10px;}
+.cit-captcha-textbox{margin-top:2px;}
+.cit-captcha-response{font-size:18px;letter-spacing:10px;}
+@media (min-width:768px) {
+    #midd-container{min-height:350px;}
+}	
+@media (min-width:992px) {
+    #midd-container{min-height:400px;}
+}
+@media (min-width:1024px) {
+    #midd-container{min-height:450px;}
+}
+a.btn.try-btn {background-color: #d4cece;margin: 5px 0;color: #000;width: 500px;text-align: left;}
+.google-setup-steps span{display:inline-block;font-size: 15px;}
+.auth-code-setup{display:block;width:60%;height:34px;font-size:16px;line-height: 1.42857143;color:#555;letter-spacing:10px;border:1px solid #ccc;border-radius:4px;margin:10px 43px;text-align:center;}
+.app-img{width:120px;margin: 0 5px;}
+.google-qr{width:150px;}
+.scanqr:hover{text-decoration:none;cursor:pointer;}
+
+.error{
+    color:red;
+}
+#pr #my-date-error.error {
+    position: absolute;
+    padding-top: 48px;
+}
+.picker {
+    --dd-color1: #198754;
+    --dd-color2: white;
+    --dd-color3: #4D4D4D;
+    --dd-color4: white;
+    --dd-radius: 6px;
+    --dd-width: 50px;
+    --dd-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+  div.datedropper {
+    --dd-color1: #198754;
+}
+  .full-calender a {
+    color: black;
+    text-decoration: none;
+}
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+#button-bar {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.highcharts-tooltip table th {
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid silver;
+}
+
+.pie-span{
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid silver;
+}
+.highcharts-tooltip>span {
+    background: rgba(255,255,255,0.85);
+    /* border: 1px solid silver;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px #888; */
+    padding: 8px;
+    height:auto;
+    width:auto;
+ }
+.pe-auto{
+    cursor: pointer;
+}
+.invisible {
+    width:10px;
+}
+
+.fc-scroller {
+    overflow:hidden auto !important;
+}
+
+.select-search {
+    top: 40px;
+    margin-left: calc(50% - 110px);
+}
+.fc-toolbar-title{
+    margin-left: 167px !important;
+}
+ .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active  {
+    background-color: #198754 !important;
+    color: #ffff !important;
+}
+
+.attd-pills{
+    color:#000 !important;
+} 
+
+
+/* Add cursor pointer to the headers */
+th {
+  cursor: pointer;
+}
+
+#loading-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 31px;
+}
